@@ -19,16 +19,16 @@ public class ArrayDemo
 			System.out.println("a["+i+"]="+a[i]);
 			sum=sum+a[i];
 		}
-		System.out.println("Sum of array is : " + sum);
+		System.out.println("Sum of array is inside : - " + sum);
 		return sum;
 	}
 	
-
+	
 	public static void main(String[] args) 
 	{
 		ArrayDemo obj = new ArrayDemo();
 		int count = obj.m1();
-		System.out.println("Count of Array outside :" + count);
+		System.out.println("Sum of Array in outside : -" + count);
 	}
 
 }
